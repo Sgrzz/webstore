@@ -1,0 +1,88 @@
+html,body {
+    margin:0;
+    padding:0;
+    height:100%; /* needed for container min-height */
+}
+
+header {
+    background-color:white;
+    color:white;
+    text-align:center;
+    padding:5px;
+    box-shadow: 5px 5px 2px lightgray;
+}
+
+header img {
+    height: 300px;
+}
+
+nav img {
+    height: 150px;
+    width: 100px;
+}
+nav figure{
+    font-size: medium;
+    text-align: center;
+
+}
+.Jogos{
+    float:left;
+    margin: auto;
+}
+
+
+nav {
+
+    float:left;
+    /* Dimensions */
+    height: inherit;
+    min-height: 100%;
+    width:120px;
+    padding:5px;
+    overflow-y: visible;
+    overflow-x: hidden;
+
+    /* Colors */
+    background-color:gray;
+}
+
+
+
+aside {
+
+    float:right;
+    /* Dimensions */
+    height:auto;
+    min-height:100%;
+    width:100px;
+    padding:5px;
+
+    /* Colors */
+    background-color:gray;
+}
+
+section {
+    /*  Dimensions */
+    height:auto;
+    min-height:100%;
+    width:350px;
+    float:left;
+
+}
+
+footer {
+
+    /* Dimensions */
+    height:auto;
+    width:auto;
+    padding:10px;
+    clear:both;
+
+    /*Text stuff*/
+    text-align: center;
+    /* Colors */
+    box-shadow: 5px -5px 2px lightgray;
+    text-shadow: 2px 2px 5px gray;
+    color:gray;
+    background-color:white;
+}
