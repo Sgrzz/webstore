@@ -48,9 +48,7 @@ nav figure{
     width: 100px;
 }
 
-.tabela_produtos {
-    padding: 500%;
-}
+
 
 .Logos img{
     margin: -150%;
@@ -104,6 +102,15 @@ section {
     float: left;
     text-align: center;
 
+}
+
+form{
+    margin-top: 25%;
+}
+
+.tabela {
+    margin-left: -75%;
+    margin-top: 25%;
 }
 
 div.img {

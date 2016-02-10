@@ -61,8 +61,28 @@
 
 <section>
 
-    cod is gay
 
+    <form name="form1" onsubmit="
+        var x = document.forms['form1']['username'].value;
+        var y = document.forms['form1']['password'].value;
+            if (x == 'TeSPPSI' && y == '7654321') {
+                window.alert('sucesso')
+                }
+            else
+
+                window.alert('insucesso');
+                return false;
+    ">
+        username:
+        <br>
+        <input type="text" name="username">
+        <br>
+        password:
+        <br>
+        <input type="password" name="password">
+        <br>
+        <input type="submit">
+    </form>
 </section>
 
 <aside>
